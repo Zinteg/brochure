@@ -1,0 +1,123 @@
+   a {
+      list-style: none;
+      color: white;
+      padding: 5px;
+    }
+    .author {
+      margin-top: 50px;
+      text-align: center;
+    }
+    .author img {
+      width: 130px;
+      border-radius: 50px;
+    }
+    .author-name {
+      font-family: Arial;
+      color: #fff03b;
+      font-size: 18px;
+      margin: 8px 200px;
+    }
+    .album-info {
+      text-align: center;
+      margin: 36px 327px;
+    }
+    .album-info img {
+      width: 300px;
+      margin: 55px 0;
+      margin-bottom: 8px;
+    }
+    .album-name {
+      font-family: Arial;
+      color: #fff03b;
+      font-size: 20px;
+      margin-top: 8px;
+      margin-bottom: 118px;
+    }
+    .big-button {
+      margin: 0px 13px;
+      display: inline-block;
+      width: 300px;
+      height: 50px;
+      border-radius: 75px;
+      background-color: white;
+      text-align: center;
+      vertical-align: middle;
+      line-height: 150px;
+    }
+    .spotify-button {
+      background-color: #1ccc5b;
+    }
+    .spotify-button img{
+      width: 104px;
+      height: 31px;
+      margin-bottom: 40px;
+    }
+    .footer-container {
+      display: flex;
+      align-items: center;
+      width: 87%;
+      margin: 154px auto;
+      margin-bottom: 0;
+    }
+body {
+  background-color: #1d1d20;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  width: 100.8%;
+  height: 55px;
+  background-color: #1d1d20;
+  margin: -8px;
+  justify-content: center
+}
+header img {
+  display: flex;
+  align-items: center;
+  width: 130px;
+}
+div img{
+  margin: 0 10px;
+}
+footer {
+  background-color: #1d1d20;
+  color: white;
+  padding: 20px 0;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 99%;
+  font-family: Arial;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  width: 87%;
+  margin: 0 auto;
+}
+
+.footer-links {
+  display: flex;
+  list-style: none;
+  display: block;
+  flex-direction: column;
+  column-count: 2;
+}
+.footer-links a {
+  text-decoration: none;
+  font-family: Arial;
+  display: block; /* Переводим ссылки в режим block */
+  margin-bottom: 3px; /* Задаем отступ снизу */
+}
+
+.footer-links li {
+  margin: 0 10px;
+}
+
+.copyright {
+  margin-left: auto;
+}
