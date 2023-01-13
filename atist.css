@@ -1,4 +1,23 @@
-   a {
+ @media screen and (max-width: 768px) {
+      header {
+        height: 70px;
+      }
+    }
+    @media (max-width: 500px) {
+      header img {
+        width: 100px;
+      }
+      div h1{
+        font-size: 40px;
+        margin: -84px;
+      }
+      div img {
+        width: 170px;
+        margin: 5px;
+        
+      }
+    }
+a {
       list-style: none;
       color: white;
       padding: 5px;
